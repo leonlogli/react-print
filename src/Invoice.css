@@ -1,0 +1,53 @@
+.Invoice {
+  max-width: 300px;
+  padding: 16px 20px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.Invoice > div {
+  margin-bottom: 16px;
+}
+
+.Invoice .info {
+  padding-bottom: 10px;
+}
+
+.Invoice .logo {
+  text-align: center;
+}
+
+.Invoice .logo img {
+  height: 80px;
+}
+
+.Invoice .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Invoice .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Invoice .footer {
+  padding-top: 16px;
+}
+
+.Invoice .footer > div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Invoice .footer svg {
+  margin-right: 4px;
+}
+
+.Invoice .footer > div > span {
+  line-height: 24px;
+}
